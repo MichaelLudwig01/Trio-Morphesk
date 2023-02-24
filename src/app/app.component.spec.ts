@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Trio-Morphesk'`, () => {
+  it(`should have as title 'TrioMorphesk'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Trio-Morphesk');
+    expect(app.title).toEqual('TrioMorphesk');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Trio-Morphesk app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('TrioMorphesk app is running!');
   });
 });

@@ -1,0 +1,63 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: linear-gradient(to right, #241E36, #382755);
+    color: #FFF;
+    padding: 0 20px;
+  }
+
+  .logo-text {
+    background: linear-gradient(to right, #EDEDED, #BFBFBF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .topbar-logo img {
+    height: 40px;
+  }
+  
+  .topbar-buttons {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .topbar-button {
+    background: none;
+    border: none;
+    color: #FFF;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+
+    margin:1px;
+
+    width:auto;
+    height:50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topbar-button:active{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin: 0px;
+    transform: scale(0.9);
+  }
+  
+  .topbar-button:hover {
+    color: #F2C94C;
+  }
+  
+  .topbar-button-right {
+    display: flex;
+    align-items: center;
+  }
+  

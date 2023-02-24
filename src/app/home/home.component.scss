@@ -1,0 +1,21 @@
+.home {
+    background: linear-gradient(to bottom, #f7f7f7 0%, #e6dfff 100%);
+    height: auto;
+    min-height: calc(100vh - 60px);
+
+    .cover {
+        background-image: url("/assets/color/color.jpg");
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+
+        height: 50vh;
+    }
+
+    video {
+        width: calc(100% - 40px);
+        height: auto;
+        margin:20px;
+
+    }
+}
